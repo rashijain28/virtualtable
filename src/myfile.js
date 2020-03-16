@@ -1,6 +1,6 @@
-import  React from 'react';
+import React,  {Component} from 'react';
 
-class Sam extends React.Component {
+class Sam extends Component{
 
     state = {time: 0}
 

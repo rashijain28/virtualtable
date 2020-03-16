@@ -2,21 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import TableNew from './TableNew';
+import 'react-virtualized/styles.css';
+
 function App() {
   return (
-    <div>
-      My App
+    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <div>
+        <TableNew />
+      </div>
     </div>
   );
 }
 
-function Rashi() {
-  return (
-    <div>
-      My name is rashi
-    </div>
-
-  );
-}
-
-export  {Rashi, App};
+export default App;
